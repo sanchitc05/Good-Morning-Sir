@@ -1,12 +1,26 @@
-a = input("Enter your name: ")
+Name = input("Enter your name: ")
+Gen = input("Enter your gender : ")
 
 import time
-timestamp = time.strftime('%H')
-if int(timestamp) < 12:
-  print("Good Morning", a)
-elif int(timestamp) > 12 and int(timestamp) < 17:
-  print("Good Afternoon", a)
-elif int(timestamp) > 17 and int(timestamp) < 23:
-  print("Good Evening", a)
+timestamp = int(time.strftime('%H'))
+
+
+if timestamp < 12:
+    greeting = "Good Morning"
+elif 12 <= timestamp < 17:
+    greeting = "Good Afternoon"
+elif 17 <= timestamp < 21:
+    greeting = "Good Evening"
 else:
-  print("Good night", a)
+    greeting = "Good Night"
+
+if Gen == "male":
+    title = "Sir"
+
+elif Gen == "female":
+    title = "Ma'am"
+
+else: 
+    title = ""
+
+print(f"{greeting}, {Name} {title}")
