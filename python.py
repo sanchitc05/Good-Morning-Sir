@@ -1,6 +1,7 @@
 Name = input("Enter your name: ")
 Gen = input("Enter your gender : ")
 
+Name = Name.lower()
 import time
 timestamp = int(time.strftime('%H'))
 
