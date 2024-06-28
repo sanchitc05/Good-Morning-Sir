@@ -15,32 +15,6 @@ Usage
 
 To use this script, simply run it and follow the prompts to enter your name and gender.
 
-```python
-Name = input("Enter your name: ")
-Gen = input("Enter your gender: ")
-
-import time
-timestamp = int(time.strftime('%H'))
-
-if timestamp < 12:
-    greeting = "Good Morning"
-elif 12 <= timestamp < 17:
-    greeting = "Good Afternoon"
-elif 17 <= timestamp < 21:
-    greeting = "Good Evening"
-else:
-    greeting = "Good Night"
-
-if Gen == "male":
-    title = "Sir"
-elif Gen == "female":
-    title = "Madam"
-else: 
-    title = ""
-
-print(f"{greeting}, {Name} {title}")
-```
-
 Installation
 
 1. Clone the repository:
