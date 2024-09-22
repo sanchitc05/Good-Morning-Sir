@@ -1,6 +1,6 @@
 # Good Morning Sir
 
-This is a simple Python script that greets the user based on the local time and the gender they have input. Depending on the time of day, the program will say "Good Morning", "Good Afternoon", "Good Evening", or "Good Night". It will also address the user as "Sir" or "Ma'am" based on the gender they provide.
+This is a simple Python script that greets the user based on the local time and the gender they have input. Depending on the time of day, the program will say "Good Morning", "Good Afternoon", "Good Evening", or "Good Night". It will also address the user as "Sir" or "Ma'am" based on the gender entered by the user.
 
 Features
 
