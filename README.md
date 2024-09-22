@@ -42,5 +42,3 @@ Author
 
 [Sanchit Chauhan](https://github.com/sanchitc05)
 ```
-
-Replace `sanchitc05` with your actual GitHub username. This `README.md` file should give users a clear understanding of what your project does and how to use it.
