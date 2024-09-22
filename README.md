@@ -41,4 +41,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Author
 
 [Sanchit Chauhan](https://github.com/sanchitc05)
-```
